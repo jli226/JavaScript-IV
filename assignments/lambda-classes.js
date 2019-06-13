@@ -103,3 +103,14 @@ class ProjectManager extends Instructor {
     console.log(`${this.name} debugs ${student.name}'s code on ${subject}'`);
   }
 }
+
+const janice = new ProjectManager({
+  name: "Janice",
+  location: "Wisconsin",
+  age: 26,
+  speciality: "Dogs",
+  favLanguage: "Dog",
+  catchPhrase: "Woof!",
+  gradClassName: "Web 10",
+  favInstructor: "Big Knell"
+});
